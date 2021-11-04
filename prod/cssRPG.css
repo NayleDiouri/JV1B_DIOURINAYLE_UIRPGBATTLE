@@ -1,0 +1,51 @@
+.background {
+    width: 50%;
+    height: 830px;
+    background-repeat: no-repeat;
+    background: contain;
+    border: 8px solid black;
+
+    background-image: url(backgroundrpg.png);
+}
+.all{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ennemie{
+    width: 10%;
+    height: 43.7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ennemie5{
+    align-self: center;
+}
+.characters{
+    width: 10%;
+    height: 43.7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#a{
+    display: inline box;
+    width:400px;
+    height: 150px;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid white;
+    background: rgba(0,0,0,0.3);
+    text-align: right;
+    flex-direction: column;
+}
+h1{
+    color: white;
+}
+.cnames{
+    display: flex;
+    justify-content: flex-end;
+}
